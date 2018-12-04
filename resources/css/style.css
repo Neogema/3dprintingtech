@@ -322,6 +322,11 @@ body .popover {
     .firegif {
         width: 90%;
     }
+    .fadeInLeftBig, .fadeInRightBig {
+        transition-property: none !important;
+        transform: none !important;
+        animation: none !important;
+    }
 }
 @media only screen and (max-width: 1023px) {
     .bg-index-howitworks {
@@ -341,5 +346,10 @@ body .popover {
     }
     .print, .structure {
         width: 90%;
+    }
+    .fadeInLeftBig, .fadeInRightBig {
+        transition-property: none !important;
+        transform: none !important;
+        animation: none !important;
     }
 }

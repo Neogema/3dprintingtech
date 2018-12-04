@@ -1,0 +1,345 @@
+/* ------------------------------ ALL ------------------------------ */
+
+/* GENERAL STYLING */
+
+html {
+    overflow-x: hidden;
+}
+body {
+    font-family: 'Cantarell', sans-serif;
+    color: #ffffff;
+    text-shadow: 0.05rem 0.05rem #808080;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Racing Sans One', cursive;
+}
+h1 {
+    font-size: 3rem;  
+}
+p {
+    font-size: 1.75rem;
+}
+.container-fluid {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.black-text {
+    color: #000000;
+}
+.dark-text-shadow {
+    text-shadow: 0.075rem 0.075rem #000000;
+}
+.bg-offwhite {
+    background-color: #fafafa;
+}
+.underline {
+    padding-top: 0.5rem;
+    border-bottom: 0.05rem solid #000000;
+}
+
+/* MULTIPLE SECTION STYLING */
+
+.jumbotron, .padding {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+.bg-impacts-main, .bg-issues-main, .bg-analysis-main, .bg-sources-main {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 5rem; 
+}
+.bg-index-howitworks, .bg-index-futureuses, .bg-analysis-case1, .bg-analysis-case2, .bg-issues-firearms, .bg-issues-prosthetics, .bg-issues-construction, .bg-impacts-invlog, .bg-impacts-industries, .bg-impacts-aerospace, .bg-impacts-supplychain {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: -100;
+}
+
+/* NAVIGATION BAR */
+
+.navbar-sticky {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+.nav-link {
+    text-shadow: 0.1rem 0.1rem #808080;
+    color: #ffffff!important;
+    padding-left: 2rem!important;
+}
+.active-border {
+    border-bottom: 0.5rem solid #ffffff;
+    box-shadow: 0 0.1rem #808080;
+}
+.navbar-toggler {
+    border: 0!important;
+    outline: 0!important;
+}
+.fa-bars {
+    color: #ffffff;
+}
+
+/* TITLE */
+
+.jumbotron {
+    background-color: transparent;
+    margin-bottom: 0;
+}
+.jumbotron h1 {
+    font-size: 4.5rem;
+    margin-top: 10rem;
+    text-shadow: 0.05rem 0.05rem #000000;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #000000;
+}
+footer p {
+    margin-bottom: 0;
+}
+
+/* ------------------------------ INDEX ------------------------------ */
+
+/* NAVIGATION BAR */
+
+.bg-index-main {
+    background-image: url(../images/main-index.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-bottom: 5rem; 
+}
+
+/* HOW IT WORKS */
+
+.bg-index-howitworks {
+    background-image: url(../images/how-it-works.jpg);
+}
+.print {
+    margin-top: 3.5rem;
+    padding-bottom: 1rem;
+}
+.ext-image-size {
+    margin-top: 2rem;
+    width: 75%;
+}
+
+/* CURRENT USES */
+
+.tooltip-mouse {
+    cursor: pointer;
+}
+
+/* FUTURE USES */
+
+.bg-index-futureuses {
+    background-image: url(../images/future-uses.jpg);
+}
+
+/* TIMELINE */
+
+.timeline {
+    width: 100%;
+}
+
+/* ------------------------------ IMPACTS ------------------------------ */
+
+/* NAVIGATION BAR */
+
+.bg-impacts-main {
+    background-image: url(../images/main-impacts.jpg);
+}
+.bg-impacts-invlog {
+    background-image: url(../images/invlog.jpg);
+}
+.bg-impacts-industries {
+    background-image: url(../images/industries.jpg);
+}
+.bg-impacts-aerospace {
+    background-image: url(../images/aerospace.jpg);
+}
+.bg-impacts-supplychain {
+    background-image: url(../images/supplychain.jpg);
+}
+.supplychain-resize {
+    width: 75%;
+}
+.title-pad {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+/* ------------------------------ ISSUES ------------------------------ */
+
+/* NAVIGATION BAR */
+
+.bg-issues-main {
+    background-image: url(../images/main-issues.jpg);
+}
+
+/* ISSUES */
+
+.bg-issues-firearms {
+    background-image: url(../images/firearms.jpg);
+}
+.bg-issues-prosthetics {
+    background-image: url(../images/prosthetics.jpg);
+}
+.bg-issues-construction {
+    background-image: url(../images/construction.jpg);
+}
+.liberator {
+    margin-top: 9rem;
+    height: 40%;
+}
+.liberator-column {
+    max-height: 35rem;
+}
+.firegif {
+    margin-top: 3.5rem;
+    padding-bottom: 1rem;
+}
+.hand {
+    width: 90%;
+    margin-top: 3.5rem;
+    padding-bottom: 1rem;
+}
+.prosthetic {
+    width: 90%;
+    margin-top: 1.75rem;
+    padding-bottom: 1rem;
+}
+.house {
+    width: 90%;
+    margin-top: 2rem;
+}
+.structure {
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+/* ------------------------------ ANALYSIS ------------------------------ */
+
+/* NAVIGATION BAR */
+
+.bg-analysis-main {
+    background-image: url(../images/main-analysis.jpg);
+}
+
+/* CASE ANALYSIS */
+
+.bg-analysis-case1 {
+    background-image: url(../images/case1.jpg);
+}
+.bg-analysis-case2 {
+    background-image: url(../images/case2.jpg);
+}
+
+/* ------------------------------ SOURCES ------------------------------ */
+
+/* NAVIGATION BAR */
+
+.bg-sources-main {
+    background-image: url(../images/main-sources.jpg);
+}
+
+/* SOURCES */
+
+.links a {
+    font-size: 1.25rem;
+    color: #000000;
+}
+.links a:hover {
+    text-decoration: underline;
+}
+.links li {
+    margin-bottom: 2rem;
+}
+body .popover {
+    max-width: 830px;
+}
+.iconhide {
+    display: inline;
+}
+
+/* ------------------------------ MEDIA QUERIES ------------------------------ */
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 991px) {
+    .active-border {
+        border-bottom: none;
+        border-right: 0.5rem solid #ffffff;
+        box-shadow: 0.1rem 0 #808080;
+        padding-right: 0.5rem;
+    }
+}
+@media only screen and (max-width: 545px) {
+    .jumbotron h1 {
+        font-size: 3.5rem;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    p {
+        font-size: 1.25rem;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .jumbotron h1 {
+        font-size: 2.75rem;
+    }
+    .liberator {
+        margin-top: 0;
+    }
+    .liberator-column {
+        max-height: 11.75rem!important;
+    }
+}
+@media only screen and (width: 768px) {
+    .liberator {
+        height: 18%!important;
+    }
+    .ext-image-size {
+        width: 100%;
+    }
+    .print, .ext-image-size, .firegif, .hand, .prosthetic, .house, .structure {
+        padding-top: 10rem;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .links a {
+        font-size: 1rem;
+        word-wrap: break-word;
+    }
+    .firegif {
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 1023px) {
+    .bg-index-howitworks {
+        background-image: url(../images/how-it-works-mobile.jpg)!important;
+    }
+    .liberator {
+        height: 75%;
+    }
+    .liberator-column {
+        max-height: initial;
+    }
+    .mobilefix, .iconhide {
+        display: none;
+    }
+    .print, .ext-image-size, .firegif, .hand, .prosthetic, .house, .structure {
+        margin-top: 0;
+    }
+    .print, .structure {
+        width: 90%;
+    }
+}

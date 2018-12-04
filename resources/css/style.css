@@ -323,9 +323,9 @@ body .popover {
         width: 90%;
     }
     .fadeInLeftBig, .fadeInRightBig, .fadeInLeft, .fadeInRight, .fadeInUp, .fadeInDown {
-        transition-property: none !important;
-        transform: none !important;
-        animation: none !important;
+        transition-property: none!important;
+        transform: none!important;
+        animation: none!important;
     }
 }
 @media only screen and (max-width: 1023px) {
@@ -348,8 +348,8 @@ body .popover {
         width: 90%;
     }
     .fadeInLeftBig, .fadeInRightBig, .fadeInLeft, .fadeInRight, .fadeInUp, .fadeInDown {
-        transition-property: none !important;
-        transform: none !important;
-        animation: none !important;
+        transition-property: none!important;
+        transform: none!important;
+        animation: none!important;
     }
 }

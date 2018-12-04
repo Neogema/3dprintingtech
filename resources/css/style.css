@@ -322,7 +322,7 @@ body .popover {
     .firegif {
         width: 90%;
     }
-    .fadeInLeftBig, .fadeInRightBig {
+    .fadeInLeftBig, .fadeInRightBig, .fadeInLeft, .fadeInRight, .fadeInUp, .fadeInDown {
         transition-property: none !important;
         transform: none !important;
         animation: none !important;
@@ -347,7 +347,7 @@ body .popover {
     .print, .structure {
         width: 90%;
     }
-    .fadeInLeftBig, .fadeInRightBig {
+    .fadeInLeftBig, .fadeInRightBig, .fadeInLeft, .fadeInRight, .fadeInUp, .fadeInDown {
         transition-property: none !important;
         transform: none !important;
         animation: none !important;
